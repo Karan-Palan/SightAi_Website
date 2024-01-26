@@ -24,9 +24,6 @@ const Hero = () => {
             <span className="text-gradient">SightAI</span> Empowering Vision{" "}
             <br className="sm:block hidden" />{" "}
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted />
-          </div>
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[38px] text-[32px] text-white ss:leading-[100.8px] leading-[75px] w-full">
@@ -48,7 +45,8 @@ const Hero = () => {
         <img
           src={robot}
           alt="billing"
-          className="w-[70%] h-[80%] relative z-[5]"
+          className="w-[60%] h-[70%] relative z-[5] rounded-full"
+
         />
 
         {/* gradient start */}
@@ -56,10 +54,6 @@ const Hero = () => {
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
         {/* gradient end */}
-      </div>
-
-      <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted />
       </div>
     </section>
   );

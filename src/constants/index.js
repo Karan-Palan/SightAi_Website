@@ -7,15 +7,11 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
-  },
-  {
-    id: "product",
-    title: "Product",
+    title: "Features and Prototype",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "More",
   },
 ];
 
@@ -45,11 +41,12 @@ export const features = [
 
 export const feedback = [
   {
+    name: "Cutting-Edge Machine Learning",
+    title: "Founder & Leader",
     id: "feedback-1",
     content:
       "Unlike competitors, our product integrates advanced machine learning algorithms that continuously adapt, delivering more accurate and context-aware assistance, making it a smarter and more intuitive solution.",
-    name: "Cutting-Edge Machine Learning",
-    title: "Founder & Leader",
+    
     
   },
   {
@@ -108,7 +105,7 @@ export const  footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "#mytwitter",
+        link: "https://twitter.com/Karan_Palan7",
       },
       {
         name: "Partners",
@@ -149,7 +146,7 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://twitter.com/Karan_Palan7",
   },
   {
     id: "social-media-4",

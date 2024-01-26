@@ -4,7 +4,11 @@ import styles, { layout } from "../style";
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img
+        src={bill}
+        alt="billing"
+        className="w-[100%] h-[100%] relative z-[5]"
+      />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -14,15 +18,19 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        More  <br className="sm:block hidden" /> Info
+        Model and <br className="sm:block hidden" /> Dataset
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-        placerat.
+        Powered by an advanced machine learning model, our smart glasses
+        continuously analyze visual data, offering real-time insights. Trained
+        on a diverse and expansive dataset, our ML model ensures accurate scene
+        interpretation, object recognition, and facial expression analysis. This
+        robust combination elevates the user experience, making our technology a
+        cutting-edge leader in assistive devices. A brief in the{" "}
+        <a className="text-blue-500" href="https://docs.google.com/presentation/d/1tX8zXo06mz8cAIYXpeVYpaiyk70AaH9EB5eP91cWWwo/edit#slide=id.g2b2ac0305d9_8_363">
+          Pitch Deck
+        </a>
       </p>
-
-      
     </div>
   </section>
 );

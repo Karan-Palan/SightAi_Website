@@ -6,14 +6,16 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Potential <br className="sm:block hidden" /> Usecase
+        Our <br className="sm:block hidden" /> Prototype
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+        This sleek device boasts strategically placed cameras for a 180-degree
+        view, a seamless text-to-speech mechanism, and color/currency detection.
+        With a click, users can connect with volunteers, and Braille detection
+        adds another layer of accessibility. Integrating cloud databases and AI
+        assistance, our prototype not only provides an immediate impact but also
+        sets the stage for the future of inclusive assistive technology.
       </p>
-
-      <Button styles={`mt-10`} />
     </div>
 
     <div className={layout.sectionImg}>
