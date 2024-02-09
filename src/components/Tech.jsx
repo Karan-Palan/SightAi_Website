@@ -50,7 +50,7 @@ const Tech = () => (
             Website made in React
           </GoldenHoverLink>
           <br />
-          <GoldenHoverLink href="https://github.com/KRISH2832/SightAi_Website">
+          <GoldenHoverLink href="https://github.com/KRISH2832/SightAi_model">
             ML model
           </GoldenHoverLink>
         </p>
