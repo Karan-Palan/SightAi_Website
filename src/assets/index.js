@@ -24,7 +24,7 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import business1 from "./business.png"
-import prototype from './prototype.jpeg'
+import prototype from './prototype.png'
 
 export {
   airbnb,
