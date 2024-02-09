@@ -1,4 +1,6 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { faGlasses, faCode, faBuilding } from '@fortawesome/free-solid-svg-icons';
+
 
 export const navLinks = [
   {
@@ -38,6 +40,34 @@ export const features = [
       "Optimizes manufacturing processes and materials for cost-effectiveness.",
   },
 ];
+
+export const futures = [
+  {
+    id: "feature-1",
+    icon: faGlasses,
+    title: "Subscription Model:",
+    content:
+      "Empowering the visually impaired through affordable access to cutting-edge glasses and continuous support.",
+  },
+  {
+    id: "feature-2",
+    icon: faCode,
+    title: "Selling the API:",
+    content:
+      "Catalyzing innovation by offering developers the opportunity to integrate our technology into diverse applications.",
+  },
+  {
+    id: "feature-3",
+    icon: faBuilding,
+    title: "Selling to Government:",
+    content:
+      "Advancing accessibility and inclusion agendas through strategic partnerships with government entities.",
+  },
+];
+
+
+
+
 
 export const feedback = [
   {

@@ -1,5 +1,5 @@
 import airbnb from "./airbnb.png";
-import bill from "./model.jpeg";
+import bill from "./graph.png";
 import binance from "./binance.png";
 import card from "./glass.png";
 import coinbase from "./coinbase.png";
@@ -23,6 +23,8 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import business1 from "./business.png"
+import prototype from './prototype.jpeg'
 
 export {
   airbnb,
@@ -50,4 +52,6 @@ export {
   people01,
   people02,
   people03,
+  business1,
+  prototype,
 };
