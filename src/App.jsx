@@ -1,6 +1,7 @@
 import styles from "./style";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
 import Future from "./components/Future";
+import Tech from "./components/Tech";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -23,6 +24,7 @@ const App = () => (
         <CardDeal /> 
         <Future/>
         <Testimonials />
+        <Tech/>
         <Footer />
       </div>
     </div>
