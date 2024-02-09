@@ -42,7 +42,7 @@ const Tech = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
       <h2 className={styles.heading2}>
-        Why are we <br className="sm:block hidden" /> Better ?
+        Our Code <br className="sm:block hidden" /> Completely Open source
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
